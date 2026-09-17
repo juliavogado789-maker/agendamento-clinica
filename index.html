@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Agendamento da Clínica</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="container">
+
+    <h1>Agendamento de Consultas</h1>
+
+    <p>Preencha os dados abaixo para realizar seu agendamento.</p>
+
+    <form id="appointmentForm">
+
+      <label for="patient_name">Nome do paciente:</label>
+
+      <input
+        type="text"
+        id="patient_name"
+        placeholder="Digite o nome"
+        required
+      >
+
+      <label for="date">Data da consulta:</label>
+
+      <input
+        type="date"
+        id="date"
+        required
+      >
+
+      <label for="time">Horário:</label>
+
+      <select id="time" required>
+        <option value="">Selecione um horário</option>
+      </select>
+
+      <button type="submit">
+        Agendar consulta
+      </button>
+
+    </form>
+
+    <p id="message"></p>
+
+    <section>
+      <h2>Agendamentos realizados</h2>
+
+      <ul id="appointmentsList"></ul>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

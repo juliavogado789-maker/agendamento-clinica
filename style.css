@@ -1,0 +1,98 @@
+/* Configura o tamanho dos elementos */
+* {
+  box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f5f9;
+  color: #333;
+}
+
+/* Caixa principal */
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+/* Parágrafos */
+p {
+  text-align: center;
+  color: #666;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+/* Campos do formulário */
+label {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Botão */
+button {
+  margin-top: 15px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Lista de agendamentos */
+section {
+  margin-top: 35px;
+}
+
+h2 {
+  color: #2563eb;
+  font-size: 22px;
+}
+
+li {
+  margin: 8px 0;
+  padding: 10px;
+  background: #f1f5f9;
+  border-radius: 6px;
+}
+
+/* Mensagem de retorno */
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+}
